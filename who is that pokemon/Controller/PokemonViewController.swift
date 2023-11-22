@@ -14,12 +14,12 @@ class PokemonViewController: UIViewController {
     @IBOutlet weak var labelMessage: UILabel!
     @IBOutlet var buttonAnswer: [UIButton]!
     
+    lazy var pokemonManager = PokemonManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         createButtons()
-        
-        
+        pokemonManager.fetchPokemon()
     }
     
     func createButtons(){
