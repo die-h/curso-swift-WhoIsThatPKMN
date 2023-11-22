@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="bg9-sU-a4y" userLabel="Container">
-                                <rect key="frame" x="0.0" y="67" width="390" height="723"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalCentering" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="bg9-sU-a4y" userLabel="Container">
+                                <rect key="frame" x="0.0" y="61" width="390" height="723"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="s4G-r7-xx6" userLabel="Header">
                                         <rect key="frame" x="46.333333333333343" y="0.0" width="297.33333333333326" height="75.333333333333329"/>
